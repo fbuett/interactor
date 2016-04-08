@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A1C37E1CB584FF00DC059A /* Moscapsule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A1C3791CB5841000DC059A /* Moscapsule.framework */; };
+		01A1C37F1CB586D000DC059A /* Moscapsule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A1C3791CB5841000DC059A /* Moscapsule.framework */; };
+		01A1C3801CB586D000DC059A /* Moscapsule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01A1C3791CB5841000DC059A /* Moscapsule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01FDD6C91CB85CFA00C771ED /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01FDD6C81CB85CFA00C771ED /* ApiKeys.plist */; };
+		FC2F274E1BEB626E000DED51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2F274D1BEB626E000DED51 /* AppDelegate.swift */; };
+		FC2F27531BEB626E000DED51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2F27511BEB626E000DED51 /* Main.storyboard */; };
+		FC2F27551BEB626E000DED51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2F27541BEB626E000DED51 /* Assets.xcassets */; };
+		FC2F27581BEB626E000DED51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2F27561BEB626E000DED51 /* LaunchScreen.storyboard */; };
+		FC2F27601BEB627E000DED51 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2F275F1BEB627E000DED51 /* CoreBluetooth.framework */; };
+		FC2F27621BEB6284000DED51 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2F27611BEB6284000DED51 /* CoreLocation.framework */; };
+		FC2F27661BEB62C3000DED51 /* Interactor_static.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2F27651BEB62C3000DED51 /* Interactor_static.framework */; };
+		FC2F27681BEB62FD000DED51 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2F27671BEB62FD000DED51 /* SystemConfiguration.framework */; };
+		FC2F276D1BEB7CB1000DED51 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2F276C1BEB7CB0000DED51 /* libc++.tbd */; };
+		FC2F27711BEB7FE5000DED51 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2F27701BEB7FE5000DED51 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01A1C3781CB5841000DC059A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01A1C3731CB5841000DC059A /* Moscapsule.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09CF6B131A21F78700A97383;
+			remoteInfo = Moscapsule;
+		};
+		01A1C37A1CB5841000DC059A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01A1C3731CB5841000DC059A /* Moscapsule.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09CF6B1E1A21F78700A97383;
+			remoteInfo = MoscapsuleTests;
+		};
+		01A1C37C1CB584F900DC059A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01A1C3731CB5841000DC059A /* Moscapsule.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 09CF6B121A21F78700A97383;
+			remoteInfo = Moscapsule;
+		};
+		01A1C3811CB586D000DC059A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01A1C3731CB5841000DC059A /* Moscapsule.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 09CF6B121A21F78700A97383;
+			remoteInfo = Moscapsule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01A1C3831CB586D000DC059A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				01A1C3801CB586D000DC059A /* Moscapsule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01A1C3731CB5841000DC059A /* Moscapsule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Moscapsule.xcodeproj; path = ../Moscapsule/Moscapsule.xcodeproj; sourceTree = "<group>"; };
+		01FDD6C81CB85CFA00C771ED /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		FC2F274A1BEB626E000DED51 /* Interactor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interactor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2F274D1BEB626E000DED51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC2F27521BEB626E000DED51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2F27541BEB626E000DED51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2F27571BEB626E000DED51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2F27591BEB626E000DED51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2F275F1BEB627E000DED51 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FC2F27611BEB6284000DED51 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC2F27651BEB62C3000DED51 /* Interactor_static.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Interactor_static.framework; path = libs/Interactor_static.framework; sourceTree = "<group>"; };
+		FC2F27671BEB62FD000DED51 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC2F276B1BEB6517000DED51 /* ObjectiveCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveCBridge.h; sourceTree = "<group>"; };
+		FC2F276C1BEB7CB0000DED51 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FC2F27701BEB7FE5000DED51 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2F27471BEB626E000DED51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A1C37E1CB584FF00DC059A /* Moscapsule.framework in Frameworks */,
+				FC2F276D1BEB7CB1000DED51 /* libc++.tbd in Frameworks */,
+				FC2F27681BEB62FD000DED51 /* SystemConfiguration.framework in Frameworks */,
+				01A1C37F1CB586D000DC059A /* Moscapsule.framework in Frameworks */,
+				FC2F27661BEB62C3000DED51 /* Interactor_static.framework in Frameworks */,
+				FC2F27621BEB6284000DED51 /* CoreLocation.framework in Frameworks */,
+				FC2F27601BEB627E000DED51 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A1C3741CB5841000DC059A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01A1C3791CB5841000DC059A /* Moscapsule.framework */,
+				01A1C37B1CB5841000DC059A /* MoscapsuleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2F27411BEB626E000DED51 = {
+			isa = PBXGroup;
+			children = (
+				01A1C3731CB5841000DC059A /* Moscapsule.xcodeproj */,
+				FC2F276C1BEB7CB0000DED51 /* libc++.tbd */,
+				FC2F27671BEB62FD000DED51 /* SystemConfiguration.framework */,
+				FC2F27651BEB62C3000DED51 /* Interactor_static.framework */,
+				FC2F27611BEB6284000DED51 /* CoreLocation.framework */,
+				FC2F275F1BEB627E000DED51 /* CoreBluetooth.framework */,
+				FC2F274C1BEB626E000DED51 /* InteractorSwift */,
+				FC2F274B1BEB626E000DED51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2F274B1BEB626E000DED51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2F274A1BEB626E000DED51 /* Interactor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2F274C1BEB626E000DED51 /* InteractorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FC2F276B1BEB6517000DED51 /* ObjectiveCBridge.h */,
+				FC2F274D1BEB626E000DED51 /* AppDelegate.swift */,
+				FC2F27511BEB626E000DED51 /* Main.storyboard */,
+				FC2F27541BEB626E000DED51 /* Assets.xcassets */,
+				FC2F27561BEB626E000DED51 /* LaunchScreen.storyboard */,
+				FC2F27591BEB626E000DED51 /* Info.plist */,
+				01FDD6C81CB85CFA00C771ED /* ApiKeys.plist */,
+				FC2F27701BEB7FE5000DED51 /* TableViewController.swift */,
+			);
+			path = InteractorSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2F27491BEB626E000DED51 /* Interactor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2F275C1BEB626E000DED51 /* Build configuration list for PBXNativeTarget "Interactor" */;
+			buildPhases = (
+				FC2F27461BEB626E000DED51 /* Sources */,
+				FC2F27471BEB626E000DED51 /* Frameworks */,
+				FC2F27481BEB626E000DED51 /* Resources */,
+				01A1C3831CB586D000DC059A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01A1C37D1CB584F900DC059A /* PBXTargetDependency */,
+				01A1C3821CB586D000DC059A /* PBXTargetDependency */,
+			);
+			name = Interactor;
+			productName = InteractorSwift;
+			productReference = FC2F274A1BEB626E000DED51 /* Interactor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2F27421BEB626E000DED51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = interactor.ch;
+				TargetAttributes = {
+					FC2F27491BEB626E000DED51 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2F6CX8HG5Z;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FC2F27451BEB626E000DED51 /* Build configuration list for PBXProject "InteractorSwift" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2F27411BEB626E000DED51;
+			productRefGroup = FC2F274B1BEB626E000DED51 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 01A1C3741CB5841000DC059A /* Products */;
+					ProjectRef = 01A1C3731CB5841000DC059A /* Moscapsule.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FC2F27491BEB626E000DED51 /* Interactor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		01A1C3791CB5841000DC059A /* Moscapsule.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Moscapsule.framework;
+			remoteRef = 01A1C3781CB5841000DC059A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		01A1C37B1CB5841000DC059A /* MoscapsuleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MoscapsuleTests.xctest;
+			remoteRef = 01A1C37A1CB5841000DC059A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2F27481BEB626E000DED51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2F27581BEB626E000DED51 /* LaunchScreen.storyboard in Resources */,
+				01FDD6C91CB85CFA00C771ED /* ApiKeys.plist in Resources */,
+				FC2F27551BEB626E000DED51 /* Assets.xcassets in Resources */,
+				FC2F27531BEB626E000DED51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2F27461BEB626E000DED51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2F274E1BEB626E000DED51 /* AppDelegate.swift in Sources */,
+				FC2F27711BEB7FE5000DED51 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01A1C37D1CB584F900DC059A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Moscapsule;
+			targetProxy = 01A1C37C1CB584F900DC059A /* PBXContainerItemProxy */;
+		};
+		01A1C3821CB586D000DC059A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Moscapsule;
+			targetProxy = 01A1C3811CB586D000DC059A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC2F27511BEB626E000DED51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2F27521BEB626E000DED51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2F27561BEB626E000DED51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2F27571BEB626E000DED51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2F275A1BEB626E000DED51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC2F275B1BEB626E000DED51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2F275D1BEB626E000DED51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				INFOPLIST_FILE = InteractorSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbuettner.InteractorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjectiveCBridge.h";
+			};
+			name = Debug;
+		};
+		FC2F275E1BEB626E000DED51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
+				INFOPLIST_FILE = InteractorSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fbuettner.InteractorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjectiveCBridge.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2F27451BEB626E000DED51 /* Build configuration list for PBXProject "InteractorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2F275A1BEB626E000DED51 /* Debug */,
+				FC2F275B1BEB626E000DED51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2F275C1BEB626E000DED51 /* Build configuration list for PBXNativeTarget "Interactor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2F275D1BEB626E000DED51 /* Debug */,
+				FC2F275E1BEB626E000DED51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2F27421BEB626E000DED51 /* Project object */;
+}
