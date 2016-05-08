@@ -19,6 +19,7 @@ class TableViewController: UITableViewController, EventListener {
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var appidLabel: UILabel!
 
     @IBAction func startInteractor(sender: AnyObject) {
         if !interactor.isRunning() {
@@ -50,7 +51,7 @@ class TableViewController: UITableViewController, EventListener {
         if interactor.isRunning() {
             statusLabel.text = "Running"
         }
-
+        appidLabel.text = interactor.queryParameter("APP_ID")
     }
     
     func eventTriggered(data: LBSEvent!) {
